@@ -9,14 +9,25 @@ import Projects from "components/projects/Projects.jsx";
 import Contact from "components/contact/Contact.jsx";
 import Skills from "components/skills/Skills.jsx";
 
-
-
 function App() {
+  useState(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 100,
+    });
+  }, []);
 
   return (
-    <>
-      
-    </>
+    <div className= "">
+      <Navbar />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 
