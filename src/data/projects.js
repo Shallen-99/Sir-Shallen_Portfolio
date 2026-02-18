@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "p1",
-    name: "Project One",
+    name: "Night Watcher",
     description: "My first apllication built with a team that allows you to search movies and view their trailer see their rating and even more ",
     image: "/assets/images/Night-Watcher-Preview.png",
     live: "https://mugeta88.github.io/APIDashBoard2/",
@@ -10,8 +10,8 @@ export const projects = [
   },
   {
     id: "p2",
-    name: "Project Two",
-    description: "Another app description. Keep it 1–2 lines for MVP.",
+    name: "Countries API",
+    description: "A frontend mentor apllication that I genuinely enjoyed building.",
     image: "/assets/images/countries-api.jpg",
     live: "https://wonderful-liger-0295b7.netlify.app/",
     github: "https://github.com/Shallen-99/rest-countries-api.git",
